@@ -1,37 +1,49 @@
 {
   "1": {
       "message": "Bienvenue !",
+      "messageA": "aller a droite",
       "actionA": "/game/2",
+      "messageB": "",
       "actionB": "",
       "fin": ""
   },
   "2": {
     "message": "Ou aller ?",
+    "messageA": "aller en haut",
     "actionA": "/game/3",
+    "messageB": "aller en bas",
     "actionB": "/game/4",
     "fin": ""
   },
   "3": {
     "message": "Chemin tranquille",
+    "messageA": "Avancer",
     "actionA": "/game/5",
+    "messageB": "",
     "actionB": "",
     "fin": ""
   },
   "4": {
     "message": "Chemin dangereux",
+    "messageA": "Taper",
     "actionA": "/game/2",
+    "messageB": "fuir",
     "actionB": "/game/6",
     "fin": ""
   },
   "5": {
     "message": "Arrivée",
+    "messageA": "gagner",
     "actionA": "/win",
+    "messageB": "aller a droite",
     "actionB": "",
     "fin": "Victoire"
   },
   "6": {
     "message": "Piège mortel",
+    "messageA": "perdu",
     "actionA": "/lose",
+    "messageB": "aller a droite",
     "actionB": "",
     "fin": "Échec"
   }

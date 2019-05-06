@@ -2,10 +2,8 @@
   <div class="big-header">
     <h1>{{ message }}</h1>
     <br />
-    <router-link class="button" to="/game/2">Go to phase 2</router-link>
-    <router-link class="button" to="/game/3">Go to phase 3</router-link>
-    <router-link class="button" to="/win">Go to Win</router-link>
-    <router-link class="button" to="/lose">Go to Loose</router-link>
+    <router-link class="button" :to="actionA"> {{ messageA }} </router-link>
+    <router-link class="button" :to="actionB" v-if="actionB">{{ messageB }}</router-link>
   </div>
 </template>
 
@@ -20,8 +18,14 @@ export default {
       message() {
         return game[this.id].message;
       },
+      messageA() {
+        return game[this.id].messageA;
+      },
       actionA() {
         return game[this.id].actionA;
+      },
+      messageB() {
+        return game[this.id].messageB;
       },
       actionB() {
         return game[this.id].actionB;
