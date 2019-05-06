@@ -1,0 +1,38 @@
+{
+  "1": {
+      "message": "Bienvenue !",
+      "actionA": "/game/2",
+      "actionB": "",
+      "fin": ""
+  },
+  "2": {
+    "message": "Ou aller ?",
+    "actionA": "/game/3",
+    "actionB": "/game/4",
+    "fin": ""
+  },
+  "3": {
+    "message": "Chemin tranquille",
+    "actionA": "/game/5",
+    "actionB": "",
+    "fin": ""
+  },
+  "4": {
+    "message": "Chemin dangereux",
+    "actionA": "/game/2",
+    "actionB": "/game/6",
+    "fin": ""
+  },
+  "5": {
+    "message": "Arrivée",
+    "actionA": "/win",
+    "actionB": "",
+    "fin": "Victoire"
+  },
+  "6": {
+    "message": "Piège mortel",
+    "actionA": "/lose",
+    "actionB": "",
+    "fin": "Échec"
+  }
+}
