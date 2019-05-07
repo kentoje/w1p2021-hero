@@ -33,3 +33,41 @@ textarea {
   display: inline-block;
   border: none;
 }
+
+.pane-leave-active,
+      .pane-enter-active {
+        animation: fake 5s;
+        &::before {
+          content: '';
+          position: absolute;
+          background: black;
+          top: 0;
+          left: 0;
+          bottom: 0;
+          right: 0;
+          transform: translateX(100vw);
+
+          transition: transform 2.5s;
+        }
+      }
+
+      .pane-leave-to {
+        &::before {
+          transform: translateX(0);
+        }
+      }
+      // .pane-enter {
+      //   &::before {
+      //     transform: translateX(0);
+      //   }
+      // }
+
+      // .pane-enter-to {
+      //   &::before {
+      //     transform: translateX(-100vw);
+      //   }
+      // }
+    
+      body {
+        overflow: hidden;
+      }
