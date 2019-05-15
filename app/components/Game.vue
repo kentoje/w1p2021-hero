@@ -97,47 +97,71 @@ export default {
     },
     methods: {
       routerA() {
+        localStorage.setItem("phase", game[this.$route.params.id].actionA );
         setTimeout(() => {
           if( game[this.$route.params.id].actionA == "lose" ){
             this.$router.push({ name: 'lose' })
           } else if (game[this.$route.params.id].actionA == "win") {
             this.$router.push({ name: 'win' })
           } else {
+            let nbEtape = parseInt(localStorage.getItem("nbEtape")) + 1;
+            localStorage.setItem("nbEtape", nbEtape );
             this.$router.push({ name: 'game', params: { id: game[this.$route.params.id].actionA } })
           }
         }, delay);
       },
       routerB() {
+        let nbEtape = parseInt(localStorage.getItem("nbEtape")) + 1;
+        localStorage.setItem("nbEtape", nbEtape );
+        localStorage.setItem("phase", game[this.$route.params.id].actionB );
         setTimeout(() => {
           this.$router.push({ name: 'game', params: { id: game[this.$route.params.id].actionB  } })
         }, delay);
       },
       routerC() {
+        let nbEtape = parseInt(localStorage.getItem("nbEtape")) + 1;
+        localStorage.setItem("nbEtape", nbEtape );
+        localStorage.setItem("phase", game[this.$route.params.id].actionC );
         setTimeout(() => {
           this.$router.push({ name: 'game', params: { id: game[this.$route.params.id].actionC } })
         }, delay);
       },
       routerD() {
+        let nbEtape = parseInt(localStorage.getItem("nbEtape")) + 1;
+        localStorage.setItem("nbEtape", nbEtape );
+        localStorage.setItem("phase", game[this.$route.params.id].actionD );
         setTimeout(() => {
           this.$router.push({ name: 'game', params: { id: game[this.$route.params.id].actionD } })
         }, delay);
       },
       routerE() {
+        let nbEtape = parseInt(localStorage.getItem("nbEtape")) + 1;
+        localStorage.setItem("nbEtape", nbEtape );
+        localStorage.setItem("phase", game[this.$route.params.id].actionE );
         setTimeout(() => {
           this.$router.push({ name: 'game', params: { id: game[this.$route.params.id].actionE  } })
         }, delay);
       },
       routerF() {
+        let nbEtape = parseInt(localStorage.getItem("nbEtape")) + 1;
+        localStorage.setItem("nbEtape", nbEtape );
+        localStorage.setItem("phase", game[this.$route.params.id].actionF );
         setTimeout(() => {
           this.$router.push({ name: 'game', params: { id: game[this.$route.params.id].actionF  } })
         }, delay);
       },
       routerBourrin() {
+        let nbEtape = parseInt(localStorage.getItem("nbEtape")) + 1;
+        localStorage.setItem("nbEtape", nbEtape );
+        localStorage.setItem("phase", game[this.$route.params.id].actionBourrin );
         setTimeout(() => {
           this.$router.push({ name: 'game', params: { id: game[this.$route.params.id].actionBourrin  } })
         }, delay);
       },
       routerNinja() {
+        let nbEtape = parseInt(localStorage.getItem("nbEtape")) + 1;
+        localStorage.setItem("nbEtape", nbEtape );
+        localStorage.setItem("phase", game[this.$route.params.id].actionNinja );
         setTimeout(() => {
           this.$router.push({ name: 'game', params: { id: game[this.$route.params.id].actionNinja  } })
         }, delay);

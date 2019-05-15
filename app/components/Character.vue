@@ -39,11 +39,15 @@ export default {
       setNinja() {
         personnage.set(game[2]);
         localStorage.setItem("charName", personnage.getNom() );
+        localStorage.setItem("nbEtape", 0 );
+        localStorage.setItem("phase", 1 );
         this.$router.push({ name: 'game', params: { id: '1' } })
       },
       setBourrin() {
         personnage.set(game[1]);
         localStorage.setItem("charName", personnage.getNom() );
+        localStorage.setItem("nbEtape", 0 );
+        localStorage.setItem("phase", 1 );
         this.$router.push({ name: 'game', params: { id: '1' } })
       }
     }
