@@ -8,29 +8,12 @@
   </head>
   <body>
     <div id="root">
-      <!-- <transition name="black"><router-view /></transition> -->
-
-      <router-view />
+      <transition name="slide">
+        <router-view />
+      </transition>
     </div>
 
     <style>
-      /* body {
-        background: #181818;
-      }
-
-      .black-leave-active {
-        animation: toblack 1s;
-      }
-
-      .black-enter-active {
-        animation: toblack 1s ease 1s reverse;
-      }
-
-      @keyframes toblack {
-        to {
-          opacity: 0;
-        }
-      }  */
 
       
     </style>

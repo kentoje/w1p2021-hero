@@ -34,40 +34,64 @@ textarea {
   border: none;
 }
 
-.pane-leave-active,
-      .pane-enter-active {
-        animation: fake 5s;
-        &::before {
-          content: '';
-          position: absolute;
-          background: black;
-          top: 0;
-          left: 0;
-          bottom: 0;
-          right: 0;
-          transform: translateX(100vw);
 
-          transition: transform 2.5s;
-        }
-      }
+/* TODO: Modify this animation */
 
-      .pane-leave-to {
-        &::before {
-          transform: translateX(0);
-        }
-      }
-      // .pane-enter {
-      //   &::before {
-      //     transform: translateX(0);
-      //   }
-      // }
+.slide-leave-active,
+.slide-enter-active {
+  &::after {
+    content: '';
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    transform: translateX(100vw);
+    background: black;
+  }
+}
 
-      // .pane-enter-to {
-      //   &::before {
-      //     transform: translateX(-100vw);
-      //   }
-      // }
-    
-      body {
-        overflow: hidden;
-      }
+.slide-leave-active {
+  animation: fake 1s;
+
+  &::after {
+    animation: slideLeave 1s;
+  }
+}
+
+.slide-enter-active {
+  animation: fake 2s;
+
+  &::after {
+    animation: slideEnter 1s ease 1s;
+  }
+}
+
+.fadegame-enter-active, .fadegame-leave-active {
+  transition: opacity .5s;
+}
+.fadegame-enter, .fadegame-leave-to {
+  opacity: 0;
+}
+
+.game__content {
+  min-height: 100vh;
+  width: 100vw;
+  background: $hetic-green;
+}
+
+@keyframes slideLeave {
+  to {
+    transform: translateX(0);
+  }
+}
+
+@keyframes slideEnter {
+  from {
+    transform: translate(0);
+  }
+  to {
+    transform: translateX(-100vw);
+  }
+}
