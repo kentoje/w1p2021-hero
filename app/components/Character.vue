@@ -1,5 +1,5 @@
 <template>
-  <div class="big-header">
+  <div class="big-header" >
     <h1>Character</h1>
     <br />
     <h2>{{ nomBourrin }} - {{ classeBourrin }} citation: {{ citationBourrin }}</h2>
