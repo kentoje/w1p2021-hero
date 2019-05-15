@@ -38,10 +38,12 @@ export default {
     methods: {
       setNinja() {
         personnage.set(game[2]);
+        localStorage.setItem("charName", personnage.getNom() );
         this.$router.push({ name: 'game', params: { id: '1' } })
       },
       setBourrin() {
         personnage.set(game[1]);
+        localStorage.setItem("charName", personnage.getNom() );
         this.$router.push({ name: 'game', params: { id: '1' } })
       }
     }

@@ -189,3 +189,43 @@
   }
 }
 
+// {
+//   "steps" : [
+//     {
+//       "id": 1,
+//       "titre": "bfdgfdgfdgfdgfdgsfds",
+//       "actions": [
+//         {
+//           "label": "aller a droite",
+//           "to": 2
+//         },
+//         {
+//           "label": "aller a gauche",
+//           "to": 3
+//         },
+//         {
+//           "label": "aller en haut",
+//           "to": 4
+//         }
+//       ]
+//     },
+//     {
+//       "id": 2,
+//       "titre": "hgkfljhgkfjhgdf",
+//       "actions": [
+//         {
+//           "label": "aller a droite",
+//           "to": 5
+//         },
+//         {
+//           "label": "aller a gauche",
+//           "to": 6
+//         },
+//         {
+//           "label": "aller en haut",
+//           "to": 7
+//         }
+//       ]
+//     }
+//   ]
+// }
