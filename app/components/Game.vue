@@ -16,7 +16,7 @@
 
 <script>
 import game from "../data/data.json";
-import personnage from '../personnage';
+// import personnage from '../personnage';
 
 export default {
     computed: {
@@ -78,7 +78,8 @@ export default {
         return game[this.id].fin;
       },
       thePersonnage() {
-        return personnage.getNom();
+        let charName = localStorage.getItem("charName")
+        return charName;
       }
     },
     methods: {
