@@ -2,17 +2,21 @@
   <div class="big-header">
     <h1>{{ message }}</h1>
     <br />
-    <router-link class="button" :to="actionA"> {{ messageA }} </router-link>
-    <router-link class="button" :to="actionB" v-if="actionB">{{ messageB }}</router-link>
-    <router-link class="button" :to="actionC" v-if="actionC">{{ messageC }}</router-link>
-    <router-link class="button" :to="actionD" v-if="actionD">{{ messageD }}</router-link>
-    <router-link class="button" :to="actionE" v-if="actionE">{{ messageE }}</router-link>
-    <router-link class="button" :to="actionF" v-if="actionF">{{ messageF }}</router-link>
+    <button class="button" @click="routerA"> {{ messageA }} </button>
+    <button class="button" @click="routerB" v-if="actionB">{{ messageB }}</button>
+    <button class="button" @click="routerC" v-if="actionC">{{ messageC }}</button>
+    <button class="button" @click="routerD" v-if="actionD">{{ messageD }}</button>
+    <button class="button" @click="routerE" v-if="actionE">{{ messageE }}</button>
+    <button class="button" @click="routerF" v-if="actionF">{{ messageF }}</button>
+    <button class="button" @click="routerBourrin" v-if='actionBourrin && thePersonnage == "Tristan"'>{{ messageBourrin }}</button>
+    <button class="button" @click="routerNinja" v-if='actionNinja && thePersonnage == "Kento"'>{{ messageNinja }}</button>
+    <p>{{ thePersonnage }}</p>
   </div>
 </template>
 
 <script>
 import game from "../data/data.json";
+import personnage from '../personnage';
 
 export default {
     computed: {
@@ -58,9 +62,56 @@ export default {
       actionF() {
         return game[this.id].actionF;
       },
+      messageBourrin() {
+        return game[this.id].messageBourrin;
+      },
+      actionBourrin() {
+        return game[this.id].actionBourrin;
+      },
+      messageNinja() {
+        return game[this.id].messageNinja;
+      },
+      actionNinja() {
+        return game[this.id].actionNinja;
+      },
       fin() {
         return game[this.id].fin;
+      },
+      thePersonnage() {
+        return personnage.getNom();
       }
+    },
+    methods: {
+      routerA() {
+        if( game[this.$route.params.id].actionA == "lose" ){
+          this.$router.push({ name: 'lose' })
+        } else if (game[this.$route.params.id].actionA == "win") {
+          this.$router.push({ name: 'win' })
+        } else {
+          this.$router.push({ name: 'game', params: { id: game[this.$route.params.id].actionA } })
+        }
+      },
+      routerB() {
+        this.$router.push({ name: 'game', params: { id: game[this.$route.params.id].actionB  } })
+      },
+      routerC() {
+        this.$router.push({ name: 'game', params: { id: game[this.$route.params.id].actionC } })
+      },
+      routerD() {
+        this.$router.push({ name: 'game', params: { id: game[this.$route.params.id].actionD } })
+      },
+      routerE() {
+        this.$router.push({ name: 'game', params: { id: game[this.$route.params.id].actionE  } })
+      },
+      routerF() {
+        this.$router.push({ name: 'game', params: { id: game[this.$route.params.id].actionF  } })
+      },
+      routerBourrin() {
+        this.$router.push({ name: 'game', params: { id: game[this.$route.params.id].actionBourrin  } })
+      },
+      routerNinja() {
+        this.$router.push({ name: 'game', params: { id: game[this.$route.params.id].actionNinja  } })
+      },
     }
 };
 </script>

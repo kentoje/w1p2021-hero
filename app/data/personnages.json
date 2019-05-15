@@ -1,0 +1,12 @@
+{
+  "1": {
+      "nom": "Tristan",
+      "citation": "Tiens, voilà du bourrin!",
+      "classe": "Bourrin" 
+  },
+  "2": {
+    "nom": "Kento",
+    "citation": "C'est au pied du mur que l'on voit le mieux le mur.",
+    "classe": "Ninja" 
+  }
+}
