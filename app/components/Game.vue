@@ -1,21 +1,28 @@
 <template>
-  <div class="big-header">
-    <h1>{{ message }}</h1>
-    <br />
-    <button class="button" @click="routerA"> {{ messageA }} </button>
-    <button class="button" @click="routerB" v-if="actionB">{{ messageB }}</button>
-    <button class="button" @click="routerC" v-if="actionC">{{ messageC }}</button>
-    <button class="button" @click="routerD" v-if="actionD">{{ messageD }}</button>
-    <button class="button" @click="routerE" v-if="actionE">{{ messageE }}</button>
-    <button class="button" @click="routerF" v-if="actionF">{{ messageF }}</button>
-    <button class="button" @click="routerBourrin" v-if='actionBourrin && thePersonnage == "Tristan"'>{{ messageBourrin }}</button>
-    <button class="button" @click="routerNinja" v-if='actionNinja && thePersonnage == "Kento"'>{{ messageNinja }}</button>
-    <p>{{ thePersonnage }}</p>
+  <div class="game__content">
+    <transition name="fadegame">
+      <div class="big-header" v-if="fade">
+        <h1>{{ message }}</h1>
+        <br />
+        <div class="button__container" @click="handleFade">
+          <button class="button" @click="routerA"> {{ messageA }} </button>
+          <button class="button" @click="routerB" v-if="actionB">{{ messageB }}</button>
+          <button class="button" @click="routerC" v-if="actionC">{{ messageC }}</button>
+          <button class="button" @click="routerD" v-if="actionD">{{ messageD }}</button>
+          <button class="button" @click="routerE" v-if="actionE">{{ messageE }}</button>
+          <button class="button" @click="routerF" v-if="actionF">{{ messageF }}</button>
+          <button class="button" @click="routerBourrin" v-if='actionBourrin && thePersonnage == "Tristan"'>{{ messageBourrin }}</button>
+          <button class="button" @click="routerNinja" v-if='actionNinja && thePersonnage == "Kento"'>{{ messageNinja }}</button>
+          <p>{{ thePersonnage }}</p>
+        </div>
+      </div>
+    </transition>
   </div>
 </template>
 
 <script>
 import game from "../data/data.json";
+const delay = 500;
 // import personnage from '../personnage';
 
 export default {
@@ -90,35 +97,57 @@ export default {
     },
     methods: {
       routerA() {
-        if( game[this.$route.params.id].actionA == "lose" ){
-          this.$router.push({ name: 'lose' })
-        } else if (game[this.$route.params.id].actionA == "win") {
-          this.$router.push({ name: 'win' })
-        } else {
-          this.$router.push({ name: 'game', params: { id: game[this.$route.params.id].actionA } })
-        }
+        setTimeout(() => {
+          if( game[this.$route.params.id].actionA == "lose" ){
+            this.$router.push({ name: 'lose' })
+          } else if (game[this.$route.params.id].actionA == "win") {
+            this.$router.push({ name: 'win' })
+          } else {
+            this.$router.push({ name: 'game', params: { id: game[this.$route.params.id].actionA } })
+          }
+        }, delay);
       },
       routerB() {
-        this.$router.push({ name: 'game', params: { id: game[this.$route.params.id].actionB  } })
+        setTimeout(() => {
+          this.$router.push({ name: 'game', params: { id: game[this.$route.params.id].actionB  } })
+        }, delay);
       },
       routerC() {
-        this.$router.push({ name: 'game', params: { id: game[this.$route.params.id].actionC } })
+        setTimeout(() => {
+          this.$router.push({ name: 'game', params: { id: game[this.$route.params.id].actionC } })
+        }, delay);
       },
       routerD() {
-        this.$router.push({ name: 'game', params: { id: game[this.$route.params.id].actionD } })
+        setTimeout(() => {
+          this.$router.push({ name: 'game', params: { id: game[this.$route.params.id].actionD } })
+        }, delay);
       },
       routerE() {
-        this.$router.push({ name: 'game', params: { id: game[this.$route.params.id].actionE  } })
+        setTimeout(() => {
+          this.$router.push({ name: 'game', params: { id: game[this.$route.params.id].actionE  } })
+        }, delay);
       },
       routerF() {
-        this.$router.push({ name: 'game', params: { id: game[this.$route.params.id].actionF  } })
+        setTimeout(() => {
+          this.$router.push({ name: 'game', params: { id: game[this.$route.params.id].actionF  } })
+        }, delay);
       },
       routerBourrin() {
-        this.$router.push({ name: 'game', params: { id: game[this.$route.params.id].actionBourrin  } })
+        setTimeout(() => {
+          this.$router.push({ name: 'game', params: { id: game[this.$route.params.id].actionBourrin  } })
+        }, delay);
       },
       routerNinja() {
-        this.$router.push({ name: 'game', params: { id: game[this.$route.params.id].actionNinja  } })
+        setTimeout(() => {
+          this.$router.push({ name: 'game', params: { id: game[this.$route.params.id].actionNinja  } })
+        }, delay);
       },
+      handleFade() {
+        this.fade = !this.fade;
+        setTimeout(() => {
+          this.fade = !this.fade;
+        }, 1000);
+      }
     }
 };
 </script>
