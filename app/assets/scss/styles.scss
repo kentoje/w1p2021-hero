@@ -62,6 +62,7 @@ textarea {
 }
 
 .button {
+  cursor: pointer;
   color: $hetic-green;
   text-decoration: none;
   background: white;
@@ -86,7 +87,7 @@ textarea {
     bottom: 0;
     transform: translateX(100vw);
     background: black;
-    z-index: 2;
+    z-index: 3;
   }
 }
 
@@ -135,8 +136,11 @@ textarea {
 }
 
 #soundControl {
+  z-index: 2;
   position: absolute;
   top: 15px;
   left: 15px;
   font-size: 35px;
+  color: white;
+  cursor: pointer;
 }

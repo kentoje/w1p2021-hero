@@ -6,7 +6,6 @@
     <button class="button" @click="setBourrin">Selection bourrin</button>
     <h2>{{ nomNinja }} - {{ classeNinja }} citation: {{ citationNinja }}</h2>
     <button class="button" @click="setNinja">Selection ninja</button>
-    <i class="fas fa-volume-up" id="soundControl"></i>
   </div>
 </template>
 

@@ -10,12 +10,15 @@
   </head>
   <body>
     <div id="root">
+      <i class="fas fa-volume-up" id="soundControl"></i>
       <transition name="slide">
         <router-view />
+
       </transition>
     </div>
     
     <audio src="./assets/audio/fond.mp3" id="fondMusic"></audio>
+    <audio src="./assets/audio/click.mp3" id="clickSound"></audio>
     <style>
 
       

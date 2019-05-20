@@ -3,7 +3,6 @@
     <h1>{{ message }} en {{ nbEtape }} etapes</h1>
     <br>
     <button class="button" @click="goToHome">Go to Home</button>
-    <i class="fas fa-volume-up" id="soundControl"></i>
   </div>
 </template>
 

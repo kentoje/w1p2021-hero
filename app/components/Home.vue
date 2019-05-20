@@ -4,7 +4,6 @@
     <br>
     <button class="button" @click="goToChar">Nouvelle partie</button>
     <button class="button" v-if="phase && char" @click="continueGame">Continuez</button>
-    <i class="fas fa-volume-up" id="soundControl"></i>
   </div>
 </template>
 

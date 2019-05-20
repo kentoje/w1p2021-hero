@@ -13,7 +13,6 @@
           <button class="button" @click="routerF" v-if="actionF">{{ messageF }}</button>
           <button class="button" @click="routerBourrin" v-if='actionBourrin && thePersonnage == "Tristan"'>{{ messageBourrin }}</button>
           <button class="button" @click="routerNinja" v-if='actionNinja && thePersonnage == "Kento"'>{{ messageNinja }}</button>
-          <i class="fas fa-volume-up" id="soundControl"></i>
         </div>
       </div>
     </transition>
