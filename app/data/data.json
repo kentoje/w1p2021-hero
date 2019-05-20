@@ -186,6 +186,84 @@
     "messageA": "Perdu.",
     "actionA": "lose",
     "fin": ""
+  },
+  "24": {
+    "message": "Vous mettez le chapeau et vous vous envoler dans l'espace",
+    "messageA": "Perdu.",
+    "actionA": "lose",
+    "fin": ""
+  },
+  "23": {
+    "message": "Vous vous teleporter en haut du musée, un garde est la, que faite vous ?",
+    "messageA": "Falco punch",
+    "actionA": "25",
+    "messageB": "Pillule d'invisibilité",
+    "actionB": "26",
+    "messageC": "Jetter une piece",
+    "actionC": "27",
+    "messageD": "Pistoller tranquilisent",
+    "actionD": "28",
+    "fin": ""
+  },
+  "25": {
+    "message": "Vous ratez car seul captain falco peut l'utiliser",
+    "messageA": "Perdu.",
+    "actionA": "lose",
+    "fin": ""
+  },
+  "26": {
+    "message": "Tout deviens invisible pour vous, vous etes aveugle",
+    "messageA": "Perdu.",
+    "actionA": "lose",
+    "fin": ""
+  },
+  "28": {
+    "message": "Vous ratez votre cible",
+    "messageA": "Perdu.",
+    "actionA": "lose",
+    "fin": ""
+  },
+  "27": {
+    "message": "Le garde ramasse la piéce et vous passer la porte en courant, vous etes devant le diamant que faite vous pour casser la vitre?",
+    "messageA": "coupeur de vers",
+    "actionA": "29",
+    "messageB": "marteau",
+    "actionB": "30",
+    "fin": ""
+  },
+  "28": {
+    "message": "Vous vous couper avec.",
+    "messageA": "Perdu.",
+    "actionA": "lose",
+    "fin": ""
+  },
+  "30": {
+    "message": "Vous cassez la vitre et recuperer le diamant. A la sortie un garde prend une pause en dessou de vous? que faite vous?",
+    "messageA": "Lui volé sont arme",
+    "actionA": "31",
+    "messageB": "Lui sauté dessus",
+    "actionB": "32",
+    "messageC": "Lui jeter le diamant sur la tête",
+    "actionC": "33",
+    "fin": ""
+  },
+  "31": {
+    "message": "Vous lui tiré dessus mais l'arme n'est pas charger",
+    "messageA": "Perdu.",
+    "actionA": "lose",
+    "fin": ""
+  },
+  "32": {
+    "message": "Vous sautez et vous vous cassez la jambe",
+    "messageA": "Perdu.",
+    "actionA": "lose",
+    "fin": ""
+  },
+  "33": {
+    "message": "Le garde est assomer et vous fuyer",
+    "messageA": "Gagner!",
+    "actionA": "win",
+    "fin": ""
   }
 }
 
