@@ -1,54 +1,54 @@
 {
   "1": {
-      "message": "Choisissez votre approche.",
+      "message": "Choisissez votre approche : ",
       "messageA": "Foncer dans le tas.",
       "actionA": "2",
-      "messageB": "NINJA!!!!!",
+      "messageB": "Ninja Style !",
       "actionB": "3",
       "fin": ""
   },
   "2": {
-    "message": "Vous foncez avec votre trotinette dans le musée sur les gardes. Comment vous defendez-vous.",
-    "messageA": "Bouclier.",
+    "message": "Vous foncez avec votre trotinette dans le musée sur les gardes. Vous vous defendez-vous avec : ",
+    "messageA": "un bouclier",
     "actionA": "6",
-    "messageB": "lance.",
+    "messageB": "une lance",
     "actionB": "5",
-    "messageC": "Masse.",
+    "messageC": "une masse",
     "actionC": "4",
-    "messageBourrin": "boule fumigène",
+    "messageBourrin": "une boule fumigène",
     "actionBourrin": "34",
-    "messageNinja": "boule fumigène",
+    "messageNinja": "une boule fumigène",
     "actionNinja": "35",
     "fin": ""
   },
   "4": {
-    "message": "La masse est trop lourde, vous etes tombé!",
-    "messageA": "Perdu!",
+    "message": "La masse est trop lourde, vous êtes tombé !",
+    "messageA": "Perdu !",
     "actionA": "lose",
     "fin": ""
   },
   "5": {
     "message": "La lance se plante dans le sol, vous tombez.",
-    "messageA": "Perdu!",
+    "messageA": "Perdu !",
     "actionA": "lose",
     "fin": ""
   },
   "6": {
-    "message": "Vous vous protegez des balles des gardes a l'aide du bouclier, vous arrivez au diamant. Comment transportez-vous le diamant.",
+    "message": "Vous vous protégez des balles des gardes à l'aide du bouclier, vous arrivez au diamant. Comment transportez-vous le diamant.",
     "messageA": "Sur la trotinette.",
     "actionA": "8",
-    "messageB": "Avec un grappin.",
+    "messageB": "À l'aide d'un grappin.",
     "actionB": "7",
     "fin": ""
   },
   "8": {
     "message": "Le diamant est trop lourd, vous tombez.",
-    "messageA": "Perdu!",
+    "messageA": "Perdu !",
     "actionA": "lose",
     "fin": ""
   },
   "7": {
-    "message": "Vous sortez du musée avec le diamant,la police est a vos trousses.",
+    "message": "Vous sortez du musée avec le diamant,la police est à vos trousses. Que faites-vous ?",
     "messageA": "Vous caillassez la police.",
     "actionA": "10",
     "messageB": "Vous sautez sur un arbre.",
@@ -57,211 +57,211 @@
   },
   "9": {
     "message": "Vous prenez l'arbre en pleine tronche.",
-    "messageA": "Perdu!",
+    "messageA": "Perdu !",
     "actionA": "lose",
     "fin": ""
   },
   "10": {
-    "message": "Vous semer la voiture de police, un hélicopter vous prend en chasse. Comment vous defendez-vous?",
-    "messageA": "Bulle de protection.",
+    "message": "Vous semer la voiture de police, un hélicoptère vous prend en chasse. Comment vous défendez-vous ? Avec : ",
+    "messageA": "une bulle de protection.",
     "actionA": "12",
-    "messageB": "Grenade collante.",
+    "messageB": "une grenade collante.",
     "actionB": "11",
     "fin": ""
   },
   "11": {
     "message": "La grenade reste collée dans votre main, vous explosez.",
-    "messageA": "Perdu!",
+    "messageA": "Perdu !",
     "actionA": "lose",
     "fin": ""
   },
   "12": {
-    "message": "Les balles ricochent sur vous, vous semez l'hélicopter, vous arrivez à un pont detruit.Vous êtes encerclé, que faites-vous?",
+    "message": "Les balles ricochent sur vous, vous semez l'hélicoptère, vous arrivez à un pont détruit. Vous êtes encerclé, que faites-vous ?",
     "messageA": "Vous sautez avec le diamant.",
     "actionA": "14",
-    "messageB": "Vous forcez le barage",
+    "messageB": "Vous forcez le barrage",
     "actionB": "13",
     "fin": ""
   },
   "13": {
     "message": "Vous vous prenez une balle.",
-    "messageA": "Perdu!",
+    "messageA": "Perdu !",
     "actionA": "lose",
     "fin": ""
   },
   "14": {
-    "message": "Vous tombez dans une riviére en possession du diamant, vous échapper à la police.",
-    "messageA": "Gagner!",
+    "message": "Vous tombez dans une rivière en possession du diamant, vous échappez à la police.",
+    "messageA": "Gagné !",
     "actionA": "win",
     "fin": ""
   },
   "3": {
-    "message": "Vous arrivez devant le mur du musée. Que faites-vous?",
-    "messageA": "Rayon rétrécisseur.",
+    "message": "Vous arrivez devant le mur du musée. Que faites-vous ? Vous utilisez :",
+    "messageA": "le rayon réducteur",
     "actionA": "17",
-    "messageNinja": "Pioche.",
+    "messageNinja": "la pioche",
     "actionNinja": "16",
-    "messageC": "Liquidoficateur.",
+    "messageC": "le Liquidoficateur 2000",
     "actionC": "15",
-    "messageD": "teleporteur.",
+    "messageD": "le téléporteur",
     "actionD": "23",
-    "messageE": "Chaussure a ressort.",
+    "messageE": "les chaussures à ressort",
     "actionE": "22",
-    "messageF": "Chapeau anti-gravité.",
+    "messageF": "le chapeau antigravité",
     "actionF": "24",
-    "messageBourrin": "Pioche.",
+    "messageBourrin": "la pioche",
     "actionBourrin": "36",
     "fin": ""
   },
   "17": {
-    "message": "Vous vous rétrecissez et vous vous faites manger par un insecte.",
-    "messageA": "Perdu!",
+    "message": "Vous vous rétrécissez et vous vous faites manger par un insecte.",
+    "messageA": "Perdu !",
     "actionA": "Lose",
     "fin": ""
   },
   "15": {
-    "message": "Félicitation vous étes une flaque d'eau.",
-    "messageA": "Perdu!",
+    "message": "Félicitation vous êtes une flaque d'eau.",
+    "messageA": "Perdu !",
     "actionA": "lose",
     "fin": ""
   },
   "16": {
-    "message": "Vous cassez le mur et pénétrez dans le musée. Un garde surveille les portes. Que faites-vous?",
-    "messageA": "Porte de gauche",
+    "message": "Vous cassez le mur et pénétrez dans le musée. Un garde surveille les portes. Que faites-vous ? Vous prenez :",
+    "messageA": "la porte de gauche",
     "actionA": "19",
-    "messageB": "Porte de droite",
+    "messageB": "la porte de droite",
     "actionB": "18",
     "fin": ""
   },
   "19": {
-    "message": "Vous vous faites reperer.",
-    "messageA": "Perdu!",
+    "message": "Vous vous faites repérer.",
+    "messageA": "Perdu! ",
     "actionA": "lose",
     "fin": ""
   },
   "18": {
-    "message": "Vous accédez à la seconde salle. Deux gardes vous bloquent ke chemin. Que faites-vous?",
-    "messageA": "POKEBALL GOOOOOO!!!",
+    "message": "Vous accédez à la seconde salle. Deux gardes vous bloquent le chemin. Que faites-vous ? Vous : ",
+    "messageA": "lancez une Pokeball sur les gardes",
     "actionA": "21",
-    "messageB": "Super champignon",
+    "messageB": "Vous mangez un Super Champignon",
     "actionB": "20",
     "fin": ""
   },
   "21": {
-    "message": "Vous lancez la pokeball sur un garde, ce n'est pas trés effocace...",
-    "messageA": "Perdu!",
+    "message": "Vous lancez la Pokeball sur un garde, ce n'est pas très efficace ...",
+    "messageA": "Perdu !",
     "actionA": "lose",
     "fin": ""
   },
   "20": {
-    "message": "Vous manger le super champignon et devener geant. Le FBI envoie un méca sur le musée et le détruit, vous fuyer avec le diamant.",
-    "messageA": "Gagner!",
+    "message": "Vous mangez le Super Champignon et devenez géant. Le FBI envoie un méca (un robot géant) sur le musée et le détruit, vous survivez et vous vous fuyez avec le diamant.",
+    "messageA": "Gagné !",
     "actionA": "win",
     "fin": ""
   },
   "36": {
-    "message": "Vous taper trop fort sur le musée, il s'effondre. Vous sortez du musée avec le diamant,la police est a vos trousses.",
-    "messageA": "Vous caillassez la police.",
+    "message": "Vous tapez trop fort sur le musée, il s'effondre. Vous sortez du musée avec le diamant, la police est à vos trousses. Que faites-vous ?",
+    "messageA": "Vous caillassez la police",
     "actionA": "10",
-    "messageB": "Vous sautez sur un arbre.",
+    "messageB": "Vous sautez sur un arbre",
     "actionB": "9",
     "fin": ""
   },
   "34": {
-    "message": "Vous faite un nuage de fumer et essaye de partir sur la pointe de pieds ... les garde vous tire dessue...",
-    "messageA": "Perdu!",
+    "message": "Vous faites un nuage de fumée et vous essayez de partir sur la pointe des pieds ... Vous êtes maladroit, les gars vous remarquent et vous tirent dessus.",
+    "messageA": "Perdu !",
     "actionA": "lose",
     "fin": ""
   },
   "35": {
-    "message": "Vous faite un nuage de fumer et semer les gardent. Vous accédez à la seconde salle. Deux gardes vous bloquent ke chemin. Que faites-vous?",
-    "messageA": "POKEBALL GOOOOOO!!!",
+    "message": "Vous faites un nuage de fumée et semez les gardes. Vous accédez à la seconde salle. Deux gardes vous bloquent le chemin. Que faites-vous ?",
+    "messageA": "Vous lancez une Pokeball sur les gardes !!!",
     "actionA": "21",
-    "messageB": "Super champignon",
+    "messageB": "Vous mangez un Super Champignon",
     "actionB": "20",
     "fin": ""
   },
   "22": {
-    "message": "Vous ne sauter pas aasser haut et vous tomber ",
-    "messageA": "Perdu.",
+    "message": "Vous ne sautez pas assez haut et vous tombez ",
+    "messageA": "Perdu !",
     "actionA": "lose",
     "fin": ""
   },
   "24": {
-    "message": "Vous mettez le chapeau et vous vous envoler dans l'espace",
-    "messageA": "Perdu.",
+    "message": "Vous mettez le chapeau et vous vous envolez dans l'espace",
+    "messageA": "Perdu !",
     "actionA": "lose",
     "fin": ""
   },
   "23": {
-    "message": "Vous vous teleporter en haut du musée, un garde est la, que faite vous ?",
-    "messageA": "Falco punch",
+    "message": "Vous vous téléportez en haut du musée, un garde est là, que faites-vous ? Vous :",
+    "messageA": "lui collez un Falco Punch !",
     "actionA": "25",
-    "messageB": "Pillule d'invisibilité",
+    "messageB": "prenez une pilule d'invisibilité",
     "actionB": "26",
-    "messageC": "Jetter une piece",
+    "messageC": "essayez de le distraire en jetant une pièce",
     "actionC": "27",
-    "messageD": "Pistoller tranquilisent",
+    "messageD": "utilisez votre pistolet tranquillisant",
     "actionD": "28",
     "fin": ""
   },
   "25": {
-    "message": "Vous ratez car seul captain falco peut l'utiliser",
-    "messageA": "Perdu.",
+    "message": "Vous ratez car seul Captain Falco peut l'utiliser",
+    "messageA": "Perdu !",
     "actionA": "lose",
     "fin": ""
   },
   "26": {
-    "message": "Tout deviens invisible pour vous, vous etes aveugle",
-    "messageA": "Perdu.",
+    "message": "Tout devient invisible pour vous, vous devenez aveugle",
+    "messageA": "Perdu !",
     "actionA": "lose",
     "fin": ""
   },
   "28": {
     "message": "Vous ratez votre cible",
-    "messageA": "Perdu.",
+    "messageA": "Perdu !",
     "actionA": "lose",
     "fin": ""
   },
   "27": {
-    "message": "Le garde ramasse la piéce et vous passer la porte en courant, vous etes devant le diamant que faite vous pour casser la vitre?",
-    "messageA": "coupeur de vers",
+    "message": "Le garde ramasse la pièce et vous passez la porte en courant, vous êtes devant le diamant que faites-vous pour casser la vitre ? Vous utilisez : ",
+    "messageA": "un coupe verre",
     "actionA": "29",
-    "messageB": "marteau",
+    "messageB": "un marteau",
     "actionB": "30",
     "fin": ""
   },
   "28": {
-    "message": "Vous vous couper avec.",
-    "messageA": "Perdu.",
+    "message": "Vous vous coupez avec, ça fait mal. Vous vous videz de votre sang.",
+    "messageA": "Perdu !",
     "actionA": "lose",
     "fin": ""
   },
   "30": {
-    "message": "Vous cassez la vitre et recuperer le diamant. A la sortie un garde prend une pause en dessou de vous? que faite vous?",
-    "messageA": "Lui volé sont arme",
+    "message": "Vous cassez la vitre et récupérez le diamant. À la sortie un garde prend une pause clope, il est juste en dessous de vous ? Que faites-vous ? Vous : ",
+    "messageA": "lui volez son arme",
     "actionA": "31",
-    "messageB": "Lui sauté dessus",
+    "messageB": "lui sautez dessus",
     "actionB": "32",
-    "messageC": "Lui jeter le diamant sur la tête",
+    "messageC": "lui jetez le diamant sur la tête",
     "actionC": "33",
     "fin": ""
   },
   "31": {
-    "message": "Vous lui tiré dessus mais l'arme n'est pas charger",
-    "messageA": "Perdu.",
+    "message": "Vous lui tirez dessus mais l'arme n'est pas chargée.",
+    "messageA": "Perdu !",
     "actionA": "lose",
     "fin": ""
   },
   "32": {
-    "message": "Vous sautez et vous vous cassez la jambe",
-    "messageA": "Perdu.",
+    "message": "Vous sautez et vous vous cassez la jambe.",
+    "messageA": "Perdu !",
     "actionA": "lose",
     "fin": ""
   },
   "33": {
-    "message": "Le garde est assomer et vous fuyer",
-    "messageA": "Gagner!",
+    "message": "Le garde est assomé et vous fuyez",
+    "messageA": "Gagné !",
     "actionA": "win",
     "fin": ""
   }
