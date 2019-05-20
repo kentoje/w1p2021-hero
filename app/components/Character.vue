@@ -1,11 +1,17 @@
 <template>
-  <div class="big-header" >
+  <div class="big-header">
     <h1>Character</h1>
     <br />
-    <h2>{{ nomBourrin }} - {{ classeBourrin }} citation: {{ citationBourrin }}</h2>
-    <button class="button" @click="setBourrin">Selection bourrin</button>
-    <h2>{{ nomNinja }} - {{ classeNinja }} citation: {{ citationNinja }}</h2>
-    <button class="button" @click="setNinja">Selection ninja</button>
+    <div class="buttons__character">
+      <div class="button__first">
+        <h2 class="button__text">{{ classeBourrin }} : {{ citationBourrin }}</h2>
+        <button class="button__character button" @click="setBourrin">Selection du mode bourrin</button>
+      </div>
+      <div class="button__second">
+        <h2 class="button__text">{{ classeNinja }} : {{ citationNinja }}</h2>
+        <button class="button__character button" @click="setNinja">Selection du mode ninja</button>
+      </div>
+    </div>
   </div>
 </template>
 

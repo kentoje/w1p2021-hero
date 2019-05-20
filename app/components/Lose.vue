@@ -1,6 +1,6 @@
 <template>
   <div class="big-header" :class="backgroundChoice">
-    <h1>{{ message }} en {{ nbEtape }} etapes</h1>
+    <h1>{{ message }} en {{ nbEtape }} étapes.</h1>
     <br>
     <button class="button" @click="goToHome">Go to Home</button>
   </div>
@@ -33,7 +33,7 @@ export default {
   },
   data() {
     return {
-      message: "Perdu"
+      message: "Vous avez perdu"
     };
   }
 };
