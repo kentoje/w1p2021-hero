@@ -2,11 +2,15 @@
   "1": {
       "nom": "Tristan",
       "citation": "Tiens, voilà du bourrin!",
-      "classe": "Bourrin" 
+      "classe": "Bourrin",
+      "win": "../assets/img/bourin_win.jpg",
+      "lose": "../assets/img/bourin_lose.jpg"
   },
   "2": {
     "nom": "Kento",
     "citation": "C'est au pied du mur que l'on voit le mieux le mur.",
-    "classe": "Ninja" 
+    "classe": "Ninja",
+    "win": "../assets/img/ninja_win.jpg",
+    "lose": "../assets/img/ninja_lose.jpg"
   }
 }

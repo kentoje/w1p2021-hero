@@ -12,6 +12,7 @@
         <button class="button__character button" @click="setNinja">Selection du mode ninja</button>
       </div>
     </div>
+    <i class="fas fa-volume-up" id="soundControl"></i>
   </div>
 </template>
 
@@ -45,6 +46,8 @@ export default {
       setNinja() {
         personnage.set(game[2]);
         localStorage.setItem("charName", personnage.getNom() );
+        localStorage.setItem("charWin", personnage.getWin() );
+        localStorage.setItem("charLose", personnage.getLose() );
         localStorage.setItem("nbEtape", 0 );
         localStorage.setItem("phase", 1 );
         this.$router.push({ name: 'game', params: { id: '1' } })
@@ -52,6 +55,8 @@ export default {
       setBourrin() {
         personnage.set(game[1]);
         localStorage.setItem("charName", personnage.getNom() );
+        localStorage.setItem("charWin", personnage.getWin() );
+        localStorage.setItem("charLose", personnage.getLose() );
         localStorage.setItem("nbEtape", 0 );
         localStorage.setItem("phase", 1 );
         this.$router.push({ name: 'game', params: { id: '1' } })

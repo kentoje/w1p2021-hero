@@ -1,8 +1,9 @@
 <template>
-  <div class="big-header">
+  <div class="big-header" :class="backgroundChoice">
     <h1>{{ message }} en {{ nbEtape }} étapes.</h1>
     <br>
     <button class="button" @click="goToHome">Go to Home</button>
+    <i class="fas fa-volume-up" id="soundControl"></i>
   </div>
 </template>
 
@@ -12,6 +13,13 @@ export default {
   computed: {
     nbEtape() {
       return localStorage.getItem("nbEtape");
+    },
+    backgroundChoice() {
+      if(localStorage.getItem('charName') == "Tristan"){
+        return 'tristanWin'
+      } else {
+        return 'kentoWin'
+      }
     }
   },
   methods: {

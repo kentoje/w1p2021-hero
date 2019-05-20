@@ -231,7 +231,7 @@
     "actionB": "30",
     "fin": ""
   },
-  "28": {
+  "29": {
     "message": "Vous vous coupez avec, ça fait mal. Vous vous videz de votre sang.",
     "messageA": "Perdu !",
     "actionA": "lose",
