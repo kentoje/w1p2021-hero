@@ -23,6 +23,42 @@ textarea {
   flex-direction: column;
 
   color: white;
+
+  &.tristanLose {
+    background: linear-gradient(
+      rgba(0, 0, 0, 0.45), 
+      rgba(0, 0, 0, 0.45)
+      ) ,url('../img/bourin_lose.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  &.tristanWin {
+    background: linear-gradient(
+      rgba(0, 0, 0, 0.45), 
+      rgba(0, 0, 0, 0.45)
+      ), url('../img/bourin_win.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  &.kentoWin {
+    background: linear-gradient(
+      rgba(0, 0, 0, 0.45), 
+      rgba(0, 0, 0, 0.45)
+      ), url('../img/ninja_win.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;;
+  }
+
+  &.kentoLose {
+    background: linear-gradient(
+      rgba(0, 0, 0, 0.45), 
+      rgba(0, 0, 0, 0.45)
+      ), url('../img/ninja_lose.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
 }
 
 .button {
@@ -50,6 +86,7 @@ textarea {
     bottom: 0;
     transform: translateX(100vw);
     background: black;
+    z-index: 2;
   }
 }
 
@@ -95,4 +132,11 @@ textarea {
   to {
     transform: translateX(-100vw);
   }
+}
+
+#soundControl {
+  position: absolute;
+  top: 15px;
+  left: 15px;
+  font-size: 35px;
 }

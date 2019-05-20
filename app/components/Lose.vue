@@ -1,10 +1,13 @@
 <template>
-  <div class="big-header">
+  <div class="big-header" :class="backgroundChoice">
     <h1>{{ message }} en {{ nbEtape }} etapes</h1>
     <br>
     <button class="button" @click="goToHome">Go to Home</button>
+    <i class="fas fa-volume-up" id="soundControl"></i>
   </div>
 </template>
+
+
 
 <script>
 // localStorage.setItem("charName", "" );
@@ -12,6 +15,13 @@ export default {
   computed: {
     nbEtape() {
       return localStorage.getItem("nbEtape");
+    },
+    backgroundChoice() {
+      if(localStorage.getItem('charName') == "Tristan"){
+        return 'tristanLose'
+      } else {
+        return 'kentoLose'
+      }
     }
   },
   methods: {
@@ -20,7 +30,7 @@ export default {
       localStorage.setItem("nbEtape", 0);
       localStorage.setItem("phase", "" );
       this.$router.push({ name: "home" });
-    }
+    },
   },
   data() {
     return {

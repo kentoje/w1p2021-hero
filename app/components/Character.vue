@@ -6,6 +6,7 @@
     <button class="button" @click="setBourrin">Selection bourrin</button>
     <h2>{{ nomNinja }} - {{ classeNinja }} citation: {{ citationNinja }}</h2>
     <button class="button" @click="setNinja">Selection ninja</button>
+    <i class="fas fa-volume-up" id="soundControl"></i>
   </div>
 </template>
 
@@ -39,6 +40,8 @@ export default {
       setNinja() {
         personnage.set(game[2]);
         localStorage.setItem("charName", personnage.getNom() );
+        localStorage.setItem("charWin", personnage.getWin() );
+        localStorage.setItem("charLose", personnage.getLose() );
         localStorage.setItem("nbEtape", 0 );
         localStorage.setItem("phase", 1 );
         this.$router.push({ name: 'game', params: { id: '1' } })
@@ -46,6 +49,8 @@ export default {
       setBourrin() {
         personnage.set(game[1]);
         localStorage.setItem("charName", personnage.getNom() );
+        localStorage.setItem("charWin", personnage.getWin() );
+        localStorage.setItem("charLose", personnage.getLose() );
         localStorage.setItem("nbEtape", 0 );
         localStorage.setItem("phase", 1 );
         this.$router.push({ name: 'game', params: { id: '1' } })
