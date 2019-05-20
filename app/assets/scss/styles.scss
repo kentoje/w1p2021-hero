@@ -12,6 +12,13 @@ textarea {
   font-family: 'Roboto';
 }
 
+h1 {
+  font-size: 28px;
+  text-align: center;
+  line-height: 1.5;
+  margin-bottom: 40px;
+}
+
 .big-header {
   background-color: $hetic-green;
   height: 100vh;
@@ -25,12 +32,37 @@ textarea {
   color: white;
 }
 
+.buttons__character {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  .button__first, .button__second {
+    min-width: 50vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    .button__text {
+      font-size: 22px;
+      max-width: 75%;
+      text-align: center;
+      line-height: 1.5;
+      margin-bottom: 16px;
+    }
+  }
+}
+
+
 .button {
+  font-size: 22px;
   color: $hetic-green;
   text-decoration: none;
   background: white;
-  padding: 5px;
-  border-radius: 5px;
+  padding: 15px;
+  margin-left: 4px;
+  margin-right: 4px;
+  border-radius: 1px;
   display: inline-block;
   border: none;
 }
