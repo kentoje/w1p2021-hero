@@ -4,8 +4,8 @@ URL du site : https://vue-hero.netlify.com
 
 ### Groupe
 
-- Prénom & Nom
-- Prénom & Nom
+- Tristan Lemire
+- Kento Monthubert
 
 ## Prologue
 
