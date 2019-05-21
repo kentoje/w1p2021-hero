@@ -33,7 +33,7 @@ export default {
   },
   data() {
     return {
-      message: "Hello Hetic"
+      message: "The diamond bank"
     };
   }
 };

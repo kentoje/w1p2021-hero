@@ -2,8 +2,8 @@
   <div class="game__content">
     <transition name="fadegame">
       <div class="big-header" v-if="fade">
-        <h1>{{ message }}</h1>
-        <br />
+        <img :src="img" v-if="img"/>
+        <h1>{{ message }}</h1>  
         <div class="button__container" @click="handleFade">
           <button class="button" @click="routerA"> {{ messageA }} </button>
           <button class="button" @click="routerB" v-if="actionB">{{ messageB }}</button>
@@ -88,6 +88,9 @@ export default {
       },
       fin() {
         return game[this.id].fin;
+      },
+      img() {
+        return game[this.id].img;
       },
       thePersonnage() {
         let charName = localStorage.getItem("charName")

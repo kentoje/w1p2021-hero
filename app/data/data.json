@@ -5,7 +5,8 @@
       "actionA": "2",
       "messageB": "Ninja Style !",
       "actionB": "3",
-      "fin": ""
+      "fin": "",
+      "img": "../assets/img/bourin_lose.jpg" 
   },
   "2": {
     "message": "Vous foncez avec votre trotinette dans le musée sur les gardes. Vous vous defendez avec : ",
@@ -266,44 +267,3 @@
     "fin": ""
   }
 }
-
-// {
-//   "steps" : [
-//     {
-//       "id": 1,
-//       "titre": "bfdgfdgfdgfdgfdgsfds",
-//       "actions": [
-//         {
-//           "label": "aller a droite",
-//           "to": 2
-//         },
-//         {
-//           "label": "aller a gauche",
-//           "to": 3
-//         },
-//         {
-//           "label": "aller en haut",
-//           "to": 4
-//         }
-//       ]
-//     },
-//     {
-//       "id": 2,
-//       "titre": "hgkfljhgkfjhgdf",
-//       "actions": [
-//         {
-//           "label": "aller a droite",
-//           "to": 5
-//         },
-//         {
-//           "label": "aller a gauche",
-//           "to": 6
-//         },
-//         {
-//           "label": "aller en haut",
-//           "to": 7
-//         }
-//       ]
-//     }
-//   ]
-// }

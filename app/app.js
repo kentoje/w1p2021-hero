@@ -12,7 +12,6 @@ let button = document.querySelectorAll('button');
 button.forEach(element => {
   element.classList.add('coucou');
   element.addEventListener('click',function(event){
-    event.preventDefault();
     console.log('cliock');
     clickSound.play();
   })
