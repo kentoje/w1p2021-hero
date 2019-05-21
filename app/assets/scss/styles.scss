@@ -1,0 +1,241 @@
+@import 'reset';
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,700');
+@import './cssgram.scss';
+
+$primarycolor: #181818;
+
+body,
+button,
+input,
+select,
+textarea {
+  font-family: 'Roboto';
+}
+
+h1 {
+  font-size: 28px;
+  text-align: center;
+  line-height: 1.5;
+  margin-bottom: 40px;
+}
+
+.big-header {
+  background-color: $primarycolor;
+  height: 100vh;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  flex-direction: column;
+
+  color: white;
+
+
+  img {
+    height: 50vh;
+    width: 50%;
+    object-fit: cover;
+    margin-bottom: 25px;
+    border: white 2px solid;
+  }
+
+  &.tristanLose {
+    background: linear-gradient(
+      rgba(0, 0, 0, 0.45), 
+      rgba(0, 0, 0, 0.45)
+      ) ,url('../img/bourin_lose.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  &.tristanWin {
+    background: linear-gradient(
+      rgba(0, 0, 0, 0.45), 
+      rgba(0, 0, 0, 0.45)
+      ), url('../img/bourin_win.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  &.kentoWin {
+    background: linear-gradient(
+      rgba(0, 0, 0, 0.45), 
+      rgba(0, 0, 0, 0.45)
+      ), url('../img/ninja_win.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;;
+  }
+
+  &.kentoLose {
+    background: linear-gradient(
+      rgba(0, 0, 0, 0.45), 
+      rgba(0, 0, 0, 0.45)
+      ), url('../img/ninja_lose.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+}
+
+.buttons__character {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  .button__first, .button__second {
+    min-width: 50vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 30vh;
+    .button__text {
+      font-size: 22px;
+      max-width: 75%;
+      text-align: center;
+      line-height: 1.5;
+      margin-bottom: 16px;
+    }
+  }
+}
+.button__character {
+  position: absolute;
+  bottom: 0;
+}
+
+
+.button {
+  cursor: pointer;
+  font-size: 22px;
+  color: $primarycolor;
+  text-decoration: none;
+  background: white;
+  padding: 15px;
+  margin-left: 4px;
+  margin-right: 4px;
+  border-radius: 1px;
+  display: inline-block;
+  border: none;
+  transition: transform 0.4s, box-shadow 0.4s, border 0.4s;
+  border: $primarycolor solid 5px;
+}
+
+.button:hover {
+  border: #fff solid 5px;
+  background: #E13334;
+  color: #fff;
+  transform: translate(-8px, -8px);
+  box-shadow: 10px 5px #5c5c5c;
+}
+
+/* TODO: Modify this animation */
+
+.slide-leave-active,
+.slide-enter-active {
+  &::after {
+    content: '';
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    transform: translateX(100vw);
+    background: black;
+    z-index: 3;
+  }
+}
+
+.slide-leave-active {
+  animation: fake 1s;
+
+  &::after {
+    animation: slideLeave 1s;
+  }
+}
+
+.slide-enter-active {
+  animation: fake 2s;
+
+  &::after {
+    animation: slideEnter 1s ease 1s;
+  }
+}
+
+.fadegame-enter-active, .fadegame-leave-active {
+  transition: opacity .5s;
+}
+.fadegame-enter, .fadegame-leave-to {
+  opacity: 0;
+}
+
+.game__content {
+  min-height: 100vh;
+  width: 100vw;
+  background: $primarycolor;
+}
+
+@keyframes slideLeave {
+  to {
+    transform: translateX(0);
+  }
+}
+
+@keyframes slideEnter {
+  from {
+    transform: translate(0);
+  }
+  to {
+    transform: translateX(-100vw);
+  }
+}
+
+#soundControl {
+  z-index: 2;
+  position: absolute;
+  top: 15px;
+  left: 15px;
+  font-size: 35px;
+  color: white;
+  cursor: pointer;
+}
+
+.button {
+  margin-bottom: 20px;
+}
+
+* { padding: 0; margin: 0; box-sizing: border-box; }
+body { background-color: black; }
+
+#fog {
+  position: absolute;
+  top: 0; left: 0;
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+  pointer-events: none;
+  opacity: .4;
+  &:before, &:after {
+    content: "";
+    position: absolute;
+    top: 0; left: 0;
+    height: 100%;
+    width: 300%;
+    background-size: contain;
+    background-position: center;
+    background-repeat: repeat-x;
+  }
+  &:before {
+    background-image: url('https://res.cloudinary.com/dkr52htco/image/upload/v1536173269/fog-1.png');
+    animation: drift 60s linear 0s infinite;
+  }
+  &:after {
+    background-image: url('https://res.cloudinary.com/dkr52htco/image/upload/v1536173269/fog-2.png');
+    animation: drift 25s linear 0s infinite;
+  }
+  @keyframes drift {
+    from { transform: translate3d(0, 0, 0); }
+    to { transform: translate3d(-200vw, 0, 0); }
+  }
+}
