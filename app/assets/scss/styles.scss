@@ -118,6 +118,7 @@ h1 {
   display: inline-block;
   border: none;
   transition: transform 0.4s, box-shadow 0.4s, border 0.4s;
+  border: $primarycolor solid 5px;
 }
 
 .button:hover {
@@ -126,9 +127,7 @@ h1 {
   color: #fff;
   transform: translate(-8px, -8px);
   box-shadow: 10px 5px #E13334;
-
 }
-
 
 /* TODO: Modify this animation */
 
