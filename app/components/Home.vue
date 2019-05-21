@@ -3,7 +3,7 @@
     <h1>{{ message }}</h1>
     <br>
     <button class="button" @click="goToChar">Nouvelle partie</button>
-    <button class="button" v-if="phase && char" @click="continueGame">Continuez</button>
+    <button class="button" v-if="phase && char" @click="continueGame">Continuer</button>
   </div>
 </template>
 
@@ -33,7 +33,7 @@ export default {
   },
   data() {
     return {
-      message: "The diamond bank"
+      message: "The Diamond Bank"
     };
   }
 };
