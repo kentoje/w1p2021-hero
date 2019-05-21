@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto:300,400,700');
 @import './cssgram.scss';
 
-$primarycolor: rgb(54, 89, 202);
+$primarycolor: #181818;
 
 body,
 button,
@@ -30,15 +30,6 @@ h1 {
   flex-direction: column;
 
   color: white;
-
-
-  img {
-    height: 50vh;
-    width: 50%;
-    object-fit: cover;
-    margin-bottom: 25px;
-    border: white 2px solid;
-  }
 
   &.tristanLose {
     background: linear-gradient(
@@ -90,6 +81,13 @@ h1 {
     justify-content: center;
     align-items: center;
     height: 30vh;
+    img {
+      height: 150%;
+      width: 50%;
+      object-fit: cover;
+      margin-bottom: 25px;
+      border: white 2px solid;
+    }
     .button__text {
       font-size: 22px;
       max-width: 75%;
@@ -121,11 +119,11 @@ h1 {
 }
 
 .button:hover {
-  border: #fff solid 5px;
-  background: $primarycolor;
+
+  background: #D72638;
   color: #fff;
   transform: translate(-8px, -8px);
-  box-shadow: 10px 5px #E13334;
+  box-shadow: 10px 5px #4d4d4d;
 
 }
 
@@ -204,5 +202,40 @@ h1 {
 
 .button {
   margin-bottom: 20px;
+}
+
+* { padding: 0; margin: 0; box-sizing: border-box; }
+body { background-color: black; }
+
+#fog {
+  position: absolute;
+  top: 0; left: 0;
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+  pointer-events: none;
+  &:before, &:after {
+    content: "";
+    position: absolute;
+    top: 0; left: 0;
+    height: 100%;
+    width: 300%;
+    background-size: contain;
+    background-position: center;
+    background-repeat: repeat-x;
+    opacity: .8;
+  }
+  &:before {
+    background-image: url('https://res.cloudinary.com/dkr52htco/image/upload/v1536173269/fog-1.png');
+    animation: drift 60s linear 0s infinite;
+  }
+  &:after {
+    background-image: url('https://res.cloudinary.com/dkr52htco/image/upload/v1536173269/fog-2.png');
+    animation: drift 25s linear 0s infinite;
+  }
+  @keyframes drift {
+    from { transform: translate3d(0, 0, 0); }
+    to { transform: translate3d(-200vw, 0, 0); }
+  }
 }
 

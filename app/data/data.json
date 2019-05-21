@@ -6,7 +6,7 @@
       "messageB": "Ninja Style !",
       "actionB": "3",
       "fin": "",
-      "img": "../assets/img/bourin_lose.jpg" 
+      "img": "../assets/img/1.png" 
   },
   "2": {
     "message": "Vous foncez avec votre trotinette dans le musée sur les gardes. Vous vous defendez avec : ",
@@ -20,19 +20,22 @@
     "actionBourrin": "34",
     "messageNinja": "une boule fumigène",
     "actionNinja": "35",
-    "fin": ""
+    "fin": "",
+    "img": "../assets/img/2.png" 
   },
   "4": {
     "message": "La masse est trop lourde, vous êtes tombé !",
     "messageA": "Perdu !",
     "actionA": "lose",
-    "fin": ""
+    "fin": "",
+    "img": "../assets/img/lose.jpg" 
   },
   "5": {
     "message": "La lance se plante dans le sol, vous tombez.",
     "messageA": "Perdu !",
     "actionA": "lose",
-    "fin": ""
+    "fin": "",
+    "img": "../assets/img/lose.jpg" 
   },
   "6": {
     "message": "Vous vous protégez des balles des gardes à l'aide du bouclier, vous arrivez au diamant. Comment transportez-vous le diamant.",
@@ -40,13 +43,15 @@
     "actionA": "8",
     "messageB": "À l'aide d'un grappin.",
     "actionB": "7",
-    "fin": ""
+    "fin": "",
+    "img": "../assets/img/6.png" 
   },
   "8": {
     "message": "Le diamant est trop lourd, vous tombez.",
     "messageA": "Perdu !",
     "actionA": "lose",
-    "fin": ""
+    "fin": "",
+    "img": "../assets/img/lose.jpg" 
   },
   "7": {
     "message": "Vous sortez du musée avec le diamant,la police est à vos trousses. Que faites-vous ?",
@@ -54,13 +59,15 @@
     "actionA": "10",
     "messageB": "Vous sautez sur un arbre.",
     "actionB": "9",
-    "fin": ""
+    "fin": "",
+    "img": "../assets/img/7.png" 
   },
   "9": {
     "message": "Vous prenez l'arbre en pleine tronche.",
     "messageA": "Perdu !",
     "actionA": "lose",
-    "fin": ""
+    "fin": "",
+    "img": "../assets/img/lose.jpg" 
   },
   "10": {
     "message": "Vous semer la voiture de police, un hélicoptère vous prend en chasse. Comment vous défendez-vous ? Avec : ",
@@ -68,13 +75,15 @@
     "actionA": "12",
     "messageB": "une grenade collante.",
     "actionB": "11",
-    "fin": ""
+    "fin": "",
+    "img": "../assets/img/10.png" 
   },
   "11": {
     "message": "La grenade reste collée dans votre main, vous explosez.",
     "messageA": "Perdu !",
     "actionA": "lose",
-    "fin": ""
+    "fin": "",
+    "img": "../assets/img/lose.jpg" 
   },
   "12": {
     "message": "Les balles ricochent sur vous, vous semez l'hélicoptère, vous arrivez à un pont détruit. Vous êtes encerclé, que faites-vous ?",
@@ -82,19 +91,22 @@
     "actionA": "14",
     "messageB": "Vous forcez le barrage",
     "actionB": "13",
-    "fin": ""
+    "fin": "",
+    "img": "../assets/img/12.png" 
   },
   "13": {
     "message": "Vous vous prenez une balle.",
     "messageA": "Perdu !",
     "actionA": "lose",
-    "fin": ""
+    "fin": "",
+    "img": "../assets/img/lose.jpg" 
   },
   "14": {
     "message": "Vous tombez dans une rivière en possession du diamant, vous échappez à la police.",
     "messageA": "Gagné !",
     "actionA": "win",
-    "fin": ""
+    "fin": "",
+    "img": "../assets/img/14.png" 
   },
   "3": {
     "message": "Vous arrivez devant le mur du musée. Que faites-vous ? Vous utilisez :",
@@ -112,33 +124,38 @@
     "actionF": "24",
     "messageBourrin": "la pioche",
     "actionBourrin": "36",
-    "fin": ""
+    "fin": "",
+    "img": "../assets/img/3.png" 
   },
   "17": {
     "message": "Vous vous rétrécissez et vous vous faites manger par un insecte.",
     "messageA": "Perdu !",
     "actionA": "Lose",
-    "fin": ""
+    "fin": "",
+    "img": "../assets/img/lose.jpg" 
   },
   "15": {
     "message": "Félicitation vous êtes une flaque d'eau.",
     "messageA": "Perdu !",
     "actionA": "lose",
-    "fin": ""
+    "fin": "",
+    "img": "../assets/img/lose.jpg" 
   },
   "16": {
     "message": "Vous cassez le mur et pénétrez dans le musée. Un garde surveille les portes. Que faites-vous ? Vous prenez :",
     "messageA": "la porte de gauche",
     "actionA": "19",
-    "messageB": "la porte de droite",
+    "messageB": "la porte du haut",
     "actionB": "18",
-    "fin": ""
+    "fin": "",
+    "img": "../assets/img/16.png" 
   },
   "19": {
     "message": "Vous vous faites repérer.",
     "messageA": "Perdu! ",
     "actionA": "lose",
-    "fin": ""
+    "fin": "",
+    "img": "../assets/img/lose.jpg" 
   },
   "18": {
     "message": "Vous accédez à la seconde salle. Deux gardes vous bloquent le chemin. Que faites-vous ? Vous : ",
@@ -146,19 +163,22 @@
     "actionA": "21",
     "messageB": "Vous mangez un Super Champignon",
     "actionB": "20",
-    "fin": ""
+    "fin": "",
+    "img": "../assets/img/18.png" 
   },
   "21": {
     "message": "Vous lancez la Pokeball sur un garde, ce n'est pas très efficace ...",
     "messageA": "Perdu !",
     "actionA": "lose",
-    "fin": ""
+    "fin": "",
+    "img": "../assets/img/lose.jpg" 
   },
   "20": {
     "message": "Vous mangez le Super Champignon et devenez géant. Le FBI envoie un méca (un robot géant) sur le musée et le détruit, vous survivez et vous vous fuyez avec le diamant.",
     "messageA": "Gagné !",
     "actionA": "win",
-    "fin": ""
+    "fin": "",
+    "img": "../assets/img/20.png" 
   },
   "36": {
     "message": "Vous tapez trop fort sur le musée, il s'effondre. Vous sortez du musée avec le diamant, la police est à vos trousses. Que faites-vous ?",
@@ -166,13 +186,15 @@
     "actionA": "10",
     "messageB": "Vous sautez sur un arbre",
     "actionB": "9",
-    "fin": ""
+    "fin": "",
+    "img": "../assets/img/7.png" 
   },
   "34": {
     "message": "Vous faites un nuage de fumée et vous essayez de partir sur la pointe des pieds ... Vous êtes maladroit, les gars vous remarquent et vous tirent dessus.",
     "messageA": "Perdu !",
     "actionA": "lose",
-    "fin": ""
+    "fin": "",
+    "img": "../assets/img/lose.jpg" 
   },
   "35": {
     "message": "Vous faites un nuage de fumée et semez les gardes. Vous accédez à la seconde salle. Deux gardes vous bloquent le chemin. Que faites-vous ?",
@@ -180,19 +202,22 @@
     "actionA": "21",
     "messageB": "Vous mangez un Super Champignon",
     "actionB": "20",
-    "fin": ""
+    "fin": "",
+    "img": "../assets/img/18.png" 
   },
   "22": {
     "message": "Vous ne sautez pas assez haut et vous tombez ",
     "messageA": "Perdu !",
     "actionA": "lose",
-    "fin": ""
+    "fin": "",
+    "img": "../assets/img/lose.jpg" 
   },
   "24": {
     "message": "Vous mettez le chapeau et vous vous envolez dans l'espace",
     "messageA": "Perdu !",
     "actionA": "lose",
-    "fin": ""
+    "fin": "",
+    "img": "../assets/img/lose.jpg" 
   },
   "23": {
     "message": "Vous vous téléportez en haut du musée, un garde est là, que faites-vous ? Vous :",
@@ -204,25 +229,29 @@
     "actionC": "27",
     "messageD": "utilisez votre pistolet tranquillisant",
     "actionD": "28",
-    "fin": ""
+    "fin": "",
+    "img": "../assets/img/23.png" 
   },
   "25": {
     "message": "Vous ratez car seul Captain Falco peut l'utiliser",
     "messageA": "Perdu !",
     "actionA": "lose",
-    "fin": ""
+    "fin": "",
+    "img": "../assets/img/lose.jpg" 
   },
   "26": {
     "message": "Tout devient invisible pour vous, vous devenez aveugle",
     "messageA": "Perdu !",
     "actionA": "lose",
-    "fin": ""
+    "fin": "",
+    "img": "../assets/img/lose.jpg" 
   },
   "28": {
     "message": "Vous ratez votre cible",
     "messageA": "Perdu !",
     "actionA": "lose",
-    "fin": ""
+    "fin": "",
+    "img": "../assets/img/lose.jpg" 
   },
   "27": {
     "message": "Le garde ramasse la pièce et vous passez la porte en courant, vous êtes devant le diamant que faites-vous pour casser la vitre ? Vous utilisez : ",
@@ -230,13 +259,15 @@
     "actionA": "29",
     "messageB": "un marteau",
     "actionB": "30",
-    "fin": ""
+    "fin": "",
+    "img": "../assets/img/27.png" 
   },
   "29": {
     "message": "Vous vous coupez avec, ça fait mal. Vous vous videz de votre sang.",
     "messageA": "Perdu !",
     "actionA": "lose",
-    "fin": ""
+    "fin": "",
+    "img": "../assets/img/lose.jpg" 
   },
   "30": {
     "message": "Vous cassez la vitre et récupérez le diamant. À la sortie un garde prend une pause clope, il est juste en dessous de vous ? Que faites-vous ? Vous : ",
@@ -246,24 +277,28 @@
     "actionB": "32",
     "messageC": "lui jetez le diamant sur la tête",
     "actionC": "33",
-    "fin": ""
+    "fin": "",
+    "img": "../assets/img/30.png" 
   },
   "31": {
     "message": "Vous lui tirez dessus mais l'arme n'est pas chargée.",
     "messageA": "Perdu !",
     "actionA": "lose",
-    "fin": ""
+    "fin": "",
+    "img": "../assets/img/lose.jpg" 
   },
   "32": {
     "message": "Vous sautez et vous vous cassez la jambe.",
     "messageA": "Perdu !",
     "actionA": "lose",
-    "fin": ""
+    "fin": "",
+    "img": "../assets/img/lose.jpg" 
   },
   "33": {
     "message": "Le garde est assomé et vous fuyez",
     "messageA": "Gagné !",
     "actionA": "win",
-    "fin": ""
+    "fin": "",
+    "img": "../assets/img/33.png" 
   }
 }
