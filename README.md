@@ -2,10 +2,41 @@
 
 URL du site : https://vue-hero.netlify.com
 
+schéma numérique: https://www.lucidchart.com/documents/view/812ce42d-3de5-4525-8c39-d08d03a8e2e7/0
+OU : https://www.zupimages.net/up/19/21/55s5.jpeg
+
 ### Groupe
 
 - Tristan Lemire
 - Kento Monthubert
+
+| Type  | Objectif | Fait ? | 
+| ----- | -------- | ------ |
+| Setup | Le repository respecte la nomenclature `w1p2021-hero-amsellem-calou`, avec tous les noms des membres, et les membres sont cités dans le README.md | Oui |
+| Setup | Le site est en ligne, et l'URL est citée dans le README.md | Oui |
+| Setup | Le site utilise VueJS | Oui |
+| Setup | Cloner le repository et exécuter `npm install` puis `npm run dev` s'effectue sans encombre | Oui |
+| Données | Un schéma numérique ou papier (scanné ou photographié) décrivant les différentes étapes et enchaînements possible. Affiché dans ce readme (si plusieurs images sont nécessaires, en afficher plusieurs, mais essayer d'être synthétique). | oui |
+| Données | Un fichier `data.json` est utilisé pour stocker la structure du jeu | Oui |
+| Données | Le fichier `data.json` décrit 30 phases de jeu ou plus. Indiquez *En partie* s'il en décrit plus de 15. | Oui |
+| Pages | Une page d'accueil est présente | Oui |
+| Pages | Une page de choix du personnage est présente | Oui |
+| Pages | Une page de victoire est présente | Oui |
+| Pages | Une page d'échec est présente | Oui |
+| Routing | Une route dont l'`id` varie permet d'afficher les différentes étapes du jeu | Oui |
+| Routing | Lorsqu'on recharge la page (`Ctrl + R`), on se trouve toujours à la même étape | Oui |
+| Transitions | Chaque page apparaît grâce à une transition fluide (la complexité de la transition n'est pas prise en compte ici) | Oui |
+| Transitions | Les transitions internes au jeu (d'une étape à une autre) et externes (intro, fin...) sont différentes | Oui |
+| État | Le choix du personnage et/ou de ses caractéristiques impacte l'aventure au moins une fois. **Indiquez ici comment succintement.** un meme choix peu vous faire perdre ou gagner selon le personnage choisi.| Oui |
+| État | Une décision ou un événement aléatoire survenu pendant l'aventure a un impact sur la suite, au moins une fois. **Indiquez ici comment succintement.** 3 fin differentes| Oui |
+| État | Le choix du personnage et/ou ce qu'il s'est passé pendant l'aventure impactent l'écran de fin. **Indiquez ici comment succintement.** image de fin par personnage. | Oui |
+| État | Au moins un service (classe de type `GameService`) est utilisé | Oui |
+| Sauvegarde | Lorsqu'on recharge la page (`Ctrl + R`), le personnage, ses caractéristiques, les choix du joueur et tout le reste sont rétablis | Oui |
+| Sauvegarde | Lorsqu'on quitte le jeu et qu'on revient plus tard à la page d'accueil (sur le même navigateur), il est possible de reprendre l'aventure où on l'avait laissée | Oui |
+| Multimédia | L'expérience présente une vidéo ou plus | Oui |
+| Multimédia | L'expérience présente un audio ou plus | Oui |
+| Multimédia | L'utilisateur a la possibilité de couper le son à tout moment | Oui |
+| Facultatif | Le repository contient un dossier /ressources contenant toutes les ressources ayant servi à la conception du jeu (schéma, design, figma...) | Non |
 
 ## Prologue
 

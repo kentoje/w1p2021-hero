@@ -233,7 +233,7 @@
     "img": "../assets/img/23.jpg" 
   },
   "25": {
-    "message": "Vous ratez car seul Captain Falco peut l'utiliser",
+    "message": "Vous ratez car seul Captain Falcon peut l'utiliser",
     "messageA": "Perdu !",
     "actionA": "lose",
     "fin": "",
