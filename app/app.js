@@ -29,7 +29,7 @@ soundControl.addEventListener('click', function(){
 
 });
 fondMusic.play();
-fondMusic.volume = 0.05;
-clickSound.volume = 0.1;
+fondMusic.volume = 0.3;
+// clickSound.volume = 0.1;
 
 
