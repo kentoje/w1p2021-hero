@@ -1,6 +1,7 @@
 <template>
   <div class="big-header">
     <h1>{{ message }}</h1>
+    <video src="../assets/img/video2.mp4" type="video/mp4" muted autoplay></video>
     <br>
     <button class="button" @click="goToChar">Nouvelle partie</button>
     <button class="button" v-if="phase && char" @click="continueGame">Continuer</button>
@@ -11,10 +12,10 @@
 // localStorage.setItem("charName", "" );
 export default {
   computed: {
-    phase(){
+    phase() {
       return localStorage.getItem("phase");
     },
-    char(){
+    char() {
       return localStorage.getItem("charName");
     }
   },

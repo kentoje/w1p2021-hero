@@ -6,7 +6,7 @@
       "messageB": "Ninja Style !",
       "actionB": "3",
       "fin": "",
-      "img": "../assets/img/1.png" 
+      "img": "../assets/img/1.jpg" 
   },
   "2": {
     "message": "Vous foncez avec votre trotinette dans le musée sur les gardes. Vous vous defendez avec : ",
@@ -21,7 +21,7 @@
     "messageNinja": "une boule fumigène",
     "actionNinja": "35",
     "fin": "",
-    "img": "../assets/img/2.png" 
+    "img": "../assets/img/2.jpg" 
   },
   "4": {
     "message": "La masse est trop lourde, vous êtes tombé !",
@@ -44,7 +44,7 @@
     "messageB": "À l'aide d'un grappin.",
     "actionB": "7",
     "fin": "",
-    "img": "../assets/img/6.png" 
+    "img": "../assets/img/6.jpg" 
   },
   "8": {
     "message": "Le diamant est trop lourd, vous tombez.",
@@ -60,7 +60,7 @@
     "messageB": "Vous sautez sur un arbre.",
     "actionB": "9",
     "fin": "",
-    "img": "../assets/img/7.png" 
+    "img": "../assets/img/7.jpg" 
   },
   "9": {
     "message": "Vous prenez l'arbre en pleine tronche.",
@@ -76,7 +76,7 @@
     "messageB": "une grenade collante.",
     "actionB": "11",
     "fin": "",
-    "img": "../assets/img/10.png" 
+    "img": "../assets/img/10.jpg" 
   },
   "11": {
     "message": "La grenade reste collée dans votre main, vous explosez.",
@@ -92,7 +92,7 @@
     "messageB": "Vous forcez le barrage",
     "actionB": "13",
     "fin": "",
-    "img": "../assets/img/12.png" 
+    "img": "../assets/img/12.jpg" 
   },
   "13": {
     "message": "Vous vous prenez une balle.",
@@ -106,7 +106,7 @@
     "messageA": "Gagné !",
     "actionA": "win",
     "fin": "",
-    "img": "../assets/img/14.png" 
+    "img": "../assets/img/14.jpg" 
   },
   "3": {
     "message": "Vous arrivez devant le mur du musée. Que faites-vous ? Vous utilisez :",
@@ -125,7 +125,7 @@
     "messageBourrin": "la pioche",
     "actionBourrin": "36",
     "fin": "",
-    "img": "../assets/img/3.png" 
+    "img": "../assets/img/3.jpg" 
   },
   "17": {
     "message": "Vous vous rétrécissez et vous vous faites manger par un insecte.",
@@ -148,7 +148,7 @@
     "messageB": "la porte du haut",
     "actionB": "18",
     "fin": "",
-    "img": "../assets/img/16.png" 
+    "img": "../assets/img/16.jpg" 
   },
   "19": {
     "message": "Vous vous faites repérer.",
@@ -164,7 +164,7 @@
     "messageB": "Vous mangez un Super Champignon",
     "actionB": "20",
     "fin": "",
-    "img": "../assets/img/18.png" 
+    "img": "../assets/img/18.jpg" 
   },
   "21": {
     "message": "Vous lancez la Pokeball sur un garde, ce n'est pas très efficace ...",
@@ -178,7 +178,7 @@
     "messageA": "Gagné !",
     "actionA": "win",
     "fin": "",
-    "img": "../assets/img/20.png" 
+    "img": "../assets/img/20.jpg" 
   },
   "36": {
     "message": "Vous tapez trop fort sur le musée, il s'effondre. Vous sortez du musée avec le diamant, la police est à vos trousses. Que faites-vous ?",
@@ -187,7 +187,7 @@
     "messageB": "Vous sautez sur un arbre",
     "actionB": "9",
     "fin": "",
-    "img": "../assets/img/7.png" 
+    "img": "../assets/img/7.jpg" 
   },
   "34": {
     "message": "Vous faites un nuage de fumée et vous essayez de partir sur la pointe des pieds ... Vous êtes maladroit, les gars vous remarquent et vous tirent dessus.",
@@ -203,7 +203,7 @@
     "messageB": "Vous mangez un Super Champignon",
     "actionB": "20",
     "fin": "",
-    "img": "../assets/img/18.png" 
+    "img": "../assets/img/18.jpg" 
   },
   "22": {
     "message": "Vous ne sautez pas assez haut et vous tombez ",
@@ -230,7 +230,7 @@
     "messageD": "utilisez votre pistolet tranquillisant",
     "actionD": "28",
     "fin": "",
-    "img": "../assets/img/23.png" 
+    "img": "../assets/img/23.jpg" 
   },
   "25": {
     "message": "Vous ratez car seul Captain Falco peut l'utiliser",
@@ -260,7 +260,7 @@
     "messageB": "un marteau",
     "actionB": "30",
     "fin": "",
-    "img": "../assets/img/27.png" 
+    "img": "../assets/img/27.jpg" 
   },
   "29": {
     "message": "Vous vous coupez avec, ça fait mal. Vous vous videz de votre sang.",
@@ -278,7 +278,7 @@
     "messageC": "lui jetez le diamant sur la tête",
     "actionC": "33",
     "fin": "",
-    "img": "../assets/img/30.png" 
+    "img": "../assets/img/30.jpg" 
   },
   "31": {
     "message": "Vous lui tirez dessus mais l'arme n'est pas chargée.",
@@ -299,6 +299,6 @@
     "messageA": "Gagné !",
     "actionA": "win",
     "fin": "",
-    "img": "../assets/img/33.png" 
+    "img": "../assets/img/33.jpg" 
   }
 }

@@ -1,5 +1,9 @@
 <template>
   <div class="game__content">
+    <link rel="preload" href="../assets/img/bourin_lose.jpg">
+    <link rel="preload" href="../assets/img/bourin_win.jpg">
+    <link rel="preload" href="../assets/img/ninja_lose.jpg">
+    <link rel="preload" href="../assets/img/ninja_win.jpg">
     <transition name="fadegame">
       <div class="big-header" v-if="fade">
         <img :src="img" v-if="img"/>

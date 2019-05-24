@@ -4,7 +4,7 @@
     <br />
     <div class="buttons__character">
       <div class="button__first">
-        <img src="../assets/img/bourin.jpg" />
+        <img ref="preload" src="../assets/img/bourin.jpg" />
         <h2 class="button__text">{{ classeBourrin }} : {{ citationBourrin }}</h2>
         <button class="button__character button" @click="setBourrin">Selection du mode bourrin</button>
       </div>

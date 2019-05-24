@@ -5,17 +5,17 @@ import router from './router';
 new Vue({ router: router }).$mount('#root');
 
 let fondMusic = document.getElementById('fondMusic');
-let clickSound = document.getElementById('clickSound');
+// let clickSound = document.getElementById('clickSound');
 let soundControl = document.getElementById('soundControl');
 let mute = false;
-let button = document.querySelectorAll('button');
-button.forEach(element => {
-  element.classList.add('coucou');
-  element.addEventListener('click',function(event){
-    console.log('cliock');
-    clickSound.play();
-  })
-});
+// let button = document.querySelectorAll('button');
+// button.forEach(element => {
+//   element.classList.add('coucou');
+//   element.addEventListener('click',function(event){
+//     console.log('cliock');
+//     clickSound.play();
+//   })
+// });
 soundControl.addEventListener('click', function(){
   if(mute == false){
     soundControl.className = "fas fa-volume-mute"
