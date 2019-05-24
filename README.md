@@ -2,6 +2,8 @@
 
 URL du site : https://vue-hero.netlify.com
 
+schéma numérique: https://www.lucidchart.com/documents/view/812ce42d-3de5-4525-8c39-d08d03a8e2e7/0
+
 ### Groupe
 
 - Tristan Lemire
